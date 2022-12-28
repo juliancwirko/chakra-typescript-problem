@@ -33,9 +33,9 @@ const outline = defineStyle({
 
 I would like to be able to do:
 ```typescript
-import { Button } from '@chakra-ui/some-generated-ts-file';
+import { ButtonOutlineVariant } from '@chakra-ui/some-generated-ts-file';
 
-const outline = defineStyle<Button>({
+const outline = defineStyle<ButtonOutlineVariant>({
   border: '2px dashed',
   borderRadius: 0,
   fontWeight: 'semibold',
