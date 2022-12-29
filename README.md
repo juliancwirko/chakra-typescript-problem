@@ -12,9 +12,9 @@ What is interesting is that VS Code properly suggests color 'shades':
 
 ![Chakra + TS 2](./public/screens/chakra_ts_2.png)
 
-### Chakra CLI tokens with '--out' flag
+### ~~Chakra CLI tokens with '--out' flag~~ [fixed in @chakra-ui/cli v2.3.0](https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fcli%402.3.0)
 
-We can specify the destination directory for `theming.types.d.ts,` but it imports `import { BaseThemeTypings } from "./shared.types.js";` using relative paths, so there is no way to use the option, right? What if I would like to keep the `theming.types.d.ts` in the project, not node_modules?
+~~We can specify the destination directory for `theming.types.d.ts,` but it imports `import { BaseThemeTypings } from "./shared.types.js";` using relative paths, so there is no way to use the option, right? What if I would like to keep the `theming.types.d.ts` in the project, not node_modules?~~
 
 ### Typescript for custom theme configuration
 
